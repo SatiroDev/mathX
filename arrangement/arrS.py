@@ -12,5 +12,3 @@ def arranjo_simples(n, p):
         sub -= 1
     devResult = nFat / subFat      
     return devResult
-
-print(arranjo_simples(12, 3))

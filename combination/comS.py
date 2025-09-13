@@ -16,5 +16,3 @@ def combinacao_simples(n, p):
     divResult = nFat / (pFat * subFat)
     return divResult
 
-print(combinacao_simples(4, 2))
-
