@@ -1,4 +1,4 @@
-def arranjo(n, p):
+def arranjo_simples(n, p):
     nFat = 1
     sub = n - p
     while n >= 1:
@@ -13,4 +13,4 @@ def arranjo(n, p):
     devResult = nFat / subFat      
     return devResult
 
-print(arranjo(12, 3))
+print(arranjo_simples(12, 3))
