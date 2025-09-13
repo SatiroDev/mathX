@@ -12,6 +12,7 @@ def combinacao_com_repeticao(n, p):
     
     denominador = n - 1
     denominadorFat = 1
+    
     while denominador >= 1:
         denominadorFat *= denominador
         denominador -= 1
